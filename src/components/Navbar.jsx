@@ -47,7 +47,14 @@ const Navbar = () => {
           {/* nav items for large devices */}
           <ul className="md:flex space-x-12 hidden">
             {navItems.map(({ link, path }) => (
-              <Link key={path} to={path}>
+              <Link
+                to={path}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                key={path}
+                className="block text-base text-grey900 hover:text-BrandPrimary first:font-medium"
+              >
                 {link}
               </Link>
             ))}
