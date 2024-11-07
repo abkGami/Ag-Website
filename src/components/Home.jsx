@@ -14,7 +14,7 @@ const Home = () => {
             {/* hero text  */}
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-NeutralGrey md:w-3/4 leading-snug ">
-                Lessons and insights{" "}
+                Lessons and insights about things
                 <span className="text-BrandPrimary leading-snug">
                   from 8 Years
                 </span>
