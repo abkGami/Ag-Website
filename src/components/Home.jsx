@@ -13,13 +13,22 @@ const Home = () => {
             </div>
             {/* hero text  */}
             <div className="md:w-1/2">
-              <h1>
-                Lessons and insights <span>from 8 Years</span>
+              <h1 className="text-5xl font-semibold mb-4 text-NeutralGrey md:w-3/4 leading-snug ">
+                Lessons and insights{" "}
+                <span className="text-BrandPrimary leading-snug">
+                  from 8 Years
+                </span>
               </h1>
+              <p className="text-NeutralGrey text-base mb-8">
+                {" "}
+                Where to grow your business as a photographer: site or social
+                media?
+              </p>
+              <button className="px-7 py-2 bg-BrandPrimary text-white rounded hover:bg-NeutralGrey transition-all duration-300 hover:-translate-y-4">
+                Register
+              </button>
             </div>
           </div>
-          <div className="flex h-full items-center justify-center">Slide 2</div>
-          <div className="flex h-full items-center justify-center">Slide 3</div>
         </Carousel>
       </div>
     </div>
